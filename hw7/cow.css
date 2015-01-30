@@ -1,68 +1,91 @@
-/* 
- Name: Haijun Qiao
- Student#: 87727129
- HomeWork: hw4, PHP and SQL.
-*/
+@charset "UTF-8";
 
-/* This css file is shared by multiple pages */
-
-/* apply to the whole body */
-body {
-	margin: 0px;
-	font-family: Arial, Helvetica, sans-serif; 
-	font-size: 14pt;
-	background-color: #FFFFFF;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial helvetica sans-serif;
+    font-size: 14pt;
 }
 
-#topbar, #bottombar {
-	background-color: #005AB4;
-	padding: 0.5em;
-	color: #FFFFFF;
+#top, #bottom{
+    background-color: #005AB4;
+    color: white;
+    padding: 0.5em;
+    margin-bottom: 2px;
 }
 
-h1,p {
-	margin: 0px;
+#bottom{
+    margin-top: 2px;
 }
 
-
-
-#logo {
-	height: 4.5em;
-	float: left;
-	margin-right: 2.0em;
+#top h1{
+    display: inline;
 }
 
-#w3c {
-	margin-top: 1.0em;
+#mainContent{
+    background-color: #B0E0E6;
+    height: 300px;
 }
 
-#main {
-	margin: 2.0em;	
-	color: #005AB4;
+#logo{
+    margin-right: 1em;
+    vertical-align: top;
+    float: left;
 }
 
-#loginElements {
-	font-weight: bold;
+#login p{
+    text-align: center;
 }
 
-/* button styles */
-#loginButton, #addButton, #deleteButton {
-	font-size: 14px;
-	color: #005AB4;
+#login #creds{
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    margin: -120px 0 0 -200px;
+    top: 60%;
+    left: 60%;
 }
 
-/* error message style */
-#errorMessage {
-	margin-top: 0.2em;
-	color: red;
-	font-size: 12px;
+.hidden{
+    visibility: hidden;
 }
 
-/* for hidden elements */
-.hidden {
-	visibility: hidden;
+#errMsg{
+    color: red;
+    font-style: italic;
 }
 
-#logoutDiv {
-	font-size: 13px;
+#header{
+    left: 40%;
+    top: 150%;
+}
+
+#list{
+    left: 40%;
+    top: 200%;
+}
+
+#logoutDiv{
+    position: fixed;
+    top: 370px;
+    left: 0px;
+}
+
+#logoutDiv a{
+    color: red;
+    text-decoration: underline;
+}
+
+#todo{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+}
+
+#controlPanel{
+    position: fixed;
+    display: inline;
+    top: 360px;
+    left: 170px;
 }
