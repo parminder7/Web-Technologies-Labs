@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+h2{
+	background-color: #F0F0F0;
+	letter-spacing: 0.25em;	
+	color: #A4A400;		
+	font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+	font-size: 22pt;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+li ul{
+	list-style-image:url("http://ws.mss.icics.ubc.ca/~cics516/cur/hw/hw1/images/pie_icon.gif");
+}
+
+body{
+	background:url("http://ws.mss.icics.ubc.ca/~cics516/cur/hw/hw1/images/silverware.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-color: white;
+	color: #404040;
+	font-size: 11pt;
+	font-family: Georgia, Garamond, serif;
+}
+
+abbr{
+	text-decoration: underline;
+}
+
+ins{
+	text-decoration: none;
+}
+
+a{
+	color: #A4A400;
+}
+
+h3{
+	color: #A4A400;
+	background-color: #F0F0F0;
+	letter-spacing: 0.25em;
+	text-decoration: underline;
+	font-weight: normal;
+	font-size: 18pt;
+}
+
+blockquote {
+	text-indent: 10px;
+	font-style: italic;
+	background-color: #FFFFA8;
+}

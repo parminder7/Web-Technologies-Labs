@@ -1,0 +1,68 @@
+/* 
+ Name: Haijun Qiao
+ Student#: 87727129
+ HomeWork: hw4, PHP and SQL.
+*/
+
+/* This css file is shared by multiple pages */
+
+/* apply to the whole body */
+body {
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 14pt;
+	background-color: #FFFFFF;
+}
+
+#topbar, #bottombar {
+	background-color: #005AB4;
+	padding: 0.5em;
+	color: #FFFFFF;
+}
+
+h1,p {
+	margin: 0px;
+}
+
+
+
+#logo {
+	height: 4.5em;
+	float: left;
+	margin-right: 2.0em;
+}
+
+#w3c {
+	margin-top: 1.0em;
+}
+
+#main {
+	margin: 2.0em;	
+	color: #005AB4;
+}
+
+#loginElements {
+	font-weight: bold;
+}
+
+/* button styles */
+#loginButton, #addButton, #deleteButton {
+	font-size: 14px;
+	color: #005AB4;
+}
+
+/* error message style */
+#errorMessage {
+	margin-top: 0.2em;
+	color: red;
+	font-size: 12px;
+}
+
+/* for hidden elements */
+.hidden {
+	visibility: hidden;
+}
+
+#logoutDiv {
+	font-size: 13px;
+}

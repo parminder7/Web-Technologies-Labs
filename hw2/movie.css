@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+.banner{
+	text-align: center;
+	background:url("http://ws.mss.icics.ubc.ca/~cics516/cur/hw/hw2/images/bannerbg.png");
+	background-repeat: repeat-x;
+}
+
+h1{
+	font-size: 24pt;
+	font-weight: bold;
+	text-align: center;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-shadow: 3px 3px #999999;
+}
+
+body{
+	background:url("http://ws.mss.icics.ubc.ca/~cics516/cur/hw/hw2/images/background.png");
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.contentarea{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px solid;
+	border-radius: 20px;
+	border-color: gray;
+	overflow: hidden;
+}
+
+.criticsreview{
+	width: 550px;
+	float: left;
+	
+}
+
+.rottenheading{
+	background:url("http://ws.mss.icics.ubc.ca/~cics516/cur/hw/hw2/images/rbg.png");
+	background-repeat: repeat-x;
+}
+
+.rottenheading span{
+	vertical-align: top;
+	font-size: 48pt;
+	color: red;
+	height: 83px;
+	font-weight: bold;	
+}
+
+.starring{
+	background-color: #A2B964;
+	width: 250px;
+	clear: right;
+	margin-top: 400px;
+	float: right;
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+	padding-top: 10pt;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.starring dt{
+	padding-top: 10pt;
+	padding-left: 10pt;
+	font-weight: bold;
+}
+
+.starring ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.overview{
+	height: 0px;
+	float: right;
+	position: relative;
+}
+
+.leftdiv{
+	width: 47%;
+	display: inline-table;
+	padding-right: 1%;
+	padding-left: 2%;
+}
+.rightdiv{
+	width: 47%;
+	display: inline-table;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+p.review{
+	font-weight: bold;
+	font-size: 8pt;
+	background-color: #E8DC9B;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: gray;
+	padding: 8px;
+	padding-bottom: 10pt;
+}
+
+.review img{
+	vertical-align: top;
+	margin-right: 5px;
+	float: left;
+}
+
+ .reviewerinfo{
+	margin-bottom: 20pt;
+ }
+ 
+ .reviewerinfo img{
+	vertical-align: top;
+	margin-right: 5px;
+	float: left;
+ }
+
+.footer{
+	clear: both;
+	background-color: #A2B964;
+	margin: 0;
+	text-align: center;
+	padding: 5px;
+}
+
+.validator{
+	float: right;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+}
+
+.validator img{
+	opacity: 0.50;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>15 Puzzle (Boss Puzzle) in JavaScript</title>
+	<script src="example.js" type="text/javascript"></script>
+    <style type="text/css">
+        *
+        {
+            font-family: Verdana;
+        }
+        body
+        {
+            font-size: 10pt;
+        }
+        .cell
+        {
+            width: 50px;
+        }
+        .num
+        {
+            padding: 8px 0;
+            border: 1px solid #0099FF;
+            background-color: #CCFFFF;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            color: #0099FF;
+            cursor: pointer;
+        }
+        #moves
+        {
+            border: 1px solid #FF6600;
+            background-color: #FFFFCC;
+            font-weight: bold;
+            padding: 2px 5px;
+            color: #FF6600;
+        }
+        a
+        {
+            color: Blue;
+        }
+        #desc
+        {
+            display: block;
+            width: 500px;
+            text-align: justify;
+            font-size: 0.8em;
+            color:#909090;
+        }
+    </style>
+
+
+</head>
+<body onload="Reset()">
+    <center>
+        <h2>
+            15 Puzzle (Boss Puzzle) in JavaScript</h2>
+        <br />
+        <table cellpadding="0" cellspacing="4" align="center" id="tbl">
+        </table>
+        <br />
+        <br />
+        <br />
+        <input type="text" name="rows" id="rows" value="4" size="3" style="text-align: center;" />
+        X
+        <input type="text" name="cols" id="cols" value="4" size="3" style="text-align: center;" />
+        <input type="button" value="New Game" onclick="Reset()" />
+        <br />
+        <br />
+        Moves: <span id="moves">0</span>
+        <br />
+        <br />
+        <span id="desc"><b>From Wikipedia</b> - The n-puzzle is known in various versions, including the 8 puzzle, the 15 puzzle, and with various names (Gem Puzzle, Boss Puzzle, Game of Fifteen, Mystic Square and many others). It is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. If the size is 3×3, the puzzle is called the 8-puzzle or 9-puzzle, and if 4×4, the puzzle is called the 15-puzzle or 16-puzzle. The object of the puzzle is to place the tiles in order (see diagram) by making sliding moves that use the empty space.
+            <br />
+            <a href="http://en.wikipedia.org/wiki/Fifteen_puzzle">Read More</a> </span>
+        <br />
+        <br />
+        <br />
+        <span><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://www.yash.info/jspuzzle.htm" send="false" layout="button_count" width="50" show_faces="false" font=""></fb:like> 
+        Developed by <a href="http://www.yash.info">Yash</a></span>
+    </center>
+</body>
+</html>

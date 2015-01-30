@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>ASCIImation</title>
+		<meta charset="utf-8">
+		<link href="ascii.css" type="text/css" rel="stylesheet"> <style type="text/css"></style>
+		<script type="text/javascript" src="ascii.js"></script>
+		<script type="text/javascript" src="https://www.cs.ubc.ca/~feeley/cics516/cur/class-only/hw5/animations.js"></script>
+		<script type="text/javascript" src="myanimation.js"></script>
+	</head>
+
+	<body>
+		<h1>CSE 190 M ASCII Animator Viewer</h1>
+		<textarea id="playarea" cols="80" rows="20"></textarea>
+		
+		<div class="controls">
+		<fieldset>
+			<legend>Play Controls:</legend>
+				<button type="button" id="startbutton" value="start" onclick="startplay()">Start</button>
+				<button type="button" id="stopbutton" value="stop" onclick="stopplay()" disabled>Stop</button>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Animation:</legend>
+				<select id="animationOpt" onchange="runAnimation()">
+					<option value="BLANK" selected>Blank</option>
+					<option value="EXERCISE">Exercise</option>
+					<option value="JUGGLER">Juggler</option>
+					<option value="BIKE">Bike</option>
+					<option value="DIVE">Dive</option>
+					<option value="CUSTOM">Custom</option>
+				</select>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Size:</legend>
+				<select id="sizeOpt" onchange="changeSize()">
+					<option value="7pt">Tiny</option>
+					<option value="10pt">Small</option>
+					<option value="12pt" selected>Medium</option>
+					<option value="16pt">Large</option>
+					<option value="24pt">Extra Large</option>
+					<option value="32pt">XXL</option>
+				</select>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Speed:</legend>
+				<input type="checkbox" id="turboChk" value="50" onchange="setTurbo()" disabled>Turbo
+		</fieldset>
+		</div>
+		
+		<div class="validator">
+			<a href="https://webster.cs.washington.edu/validate-html.php"><img src="http://ws.mss.icics.ubc.ca/~cics516/cur/hw/hw1/images/w3c-html.png" alt="Valid HTML5" /></a> <br>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3"><img src="http://ws.mss.icics.ubc.ca/~cics516/cur/hw/images/w3c-css.png" alt="Valid CSS" /></a>
+			<a href="http://webster.cs.washington.edu/jslint?referer"><img src="https://webster.cs.washington.edu/w3c-js.png" alt="JavaScript Lint" /></a>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+	background-color: #CCCCFF;
+	font-size: 14pt;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	font-size: 32pt;
+	text-align: center;
+}
+
+textarea {
+	width: 90%;
+	height: 400px;
+	font-size: 12pt;
+	font-family: monospace;
+	font-weight: bold;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset{
+	border: 5px solid black;
+	display: inline;
+}
+
+.controls{
+	margin: 0 auto;
+	width: 600px;
+}
+
+.validator{
+	position: absolute;
+    right: 0px;
+}

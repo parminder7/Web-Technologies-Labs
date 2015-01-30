@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section{
+	display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, article,
+aside, footer, header, main, nav, section{
+	padding: 0;
+	margin: 0;
+}
+
+.banner{
+	background-color: #F0F0F0;
+	color: #A4A400;
+	padding: 10px 20px;
+	font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.banner p{
+	font-size: 15px;
+}
+
+nav{
+	background-color: #F0F0F0;
+	padding: 5px;
+	margin-top: 2px;
+}
+
+li a{
+	color: #A4A400;
+}
+
+li{
+	display: inline;
+	margin-left:15px;
+	margin-right: 15px;
+	font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+body{
+	width: 960px;
+	background:url("http://ws.mss.icics.ubc.ca/~cics516/cur/hw/hw1/images/silverware.jpg");
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+section{
+	margin-top: 10px;
+	
+}
+
+section header{
+	font-style: italic;
+}
+
+article{
+	clear: both;
+	background-color: white;
+	margin-top: 5px;
+	padding: 10px 15px;
+}
+
+main{
+	width: 640px;
+	float: left;
+}
+
+aside{
+	background-color: #F0F0F0;
+	width: 270px;
+	float: right;
+	padding: 5px 10px;
+	margin-top: 10px;
+}
+
+aside section{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top:10px;
+}
+
+header{
+	background-color: #FFFFA8;
+}
+
+section h2{
+	color: #A4A400;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+img{
+	vertical-align: middle;
+}
+
+summary{
+	background-color: #F0F0F0;
+}
+
+.ads{
+	position: relative;
+	border: none;
+	margin: 0;
+	width: 270px;
+	height: 225px;
+	overflow: hidden;
+	clear: both;
+}
+
+footer{
+	clear: both;
+}
