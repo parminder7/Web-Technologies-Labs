@@ -9,5 +9,8 @@ Build a online to-do list site called "Remember the Cow". It should includes fol
 - any changes made to the list will be saved to the web server using AJAX
 - if user leaves the page and returns later, the current state of the list will be remembered
 
+For testing:
+username/password: testuser/testpass
+
 Link: 
 http://ws.mss.icics.ubc.ca/~parmindr/cics516/hw7/cow.html
